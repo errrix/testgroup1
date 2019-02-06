@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+
+
+<script>
+	// var obj = {
+	// 	a: [1,2,3,4,5],
+	// 	b: [6,7,8,9,0],
+	// 	c: [11,12,13,14,15]
+	// }
+
+	// for (key in obj){
+	// 	if(key === 'c') {
+	// 		console.log(obj[key]);
+	// 	}
+		
+	// }
+
+	// console.log(obj['a']);
+	// 14
+	// var sayHello = function(name) {
+	// 	if(name === undefined) {
+	// 		return 'Hello Unknown'
+	// 	} else {
+	// 		return 'Hello ' + name
+	// 	}
+	// };
+
+	// console.log(sayHello('German'));
+
+
+	//15
+	var myArr = [2,3,4,5];
+
+	function myMap(array) {
+		var externalArray = [];
+		for (var i = 0; i < array.length; i++) {
+			externalArray[i] = array[i]*array[i];
+		}
+
+		return externalArray;
+	}
+
+	console.log(myMap(myArr));
+
+
+</script>
+</body>
+</html>
